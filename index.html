@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Liquidapsive (Liqui-dap-sive)</title>
+        <link href="lib/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="adaptive">
+        <div id="page_wrapper">
+            <header>
+                <label id="header_inner">
+                    <h1 id="header_adaptive">Adaptive</h1>
+                    <h1 id="header_liquid">Liquid</h1>
+                    <h1 id="header_responsive">Responsive</h1>
+                    <h1 id="header_static">Static</h1>
+
+                    <select id='mode'>
+                        <option value="adaptive" selected="selected">Adaptive</option>
+                        <option value="liquid">Liquid</option>
+                        <option value="responsive">Responsive</option>
+                        <option value="static">Static</option>
+                    </select>
+                </label>
+            </header>
+
+            <div id="content_wrapper">
+                <menu>
+                    <div id="menu_inner">
+                        <ul class="menu_1">
+                            <li class="menu_1">
+                                <a href="#" class="menu_1" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 1</a>
+                                <ul class="menu_2">
+                                    <li class="menu_2">
+                                        <a href="#" class="menu_2" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 1 a</a>
+                                    </li>
+                                    <li class="menu_2">
+                                        <a href="#" class="menu_2" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 1 b</a>
+                                    </li>
+                                    <li class="menu_2">
+                                        <a href="#" class="menu_2" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 1 c</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu_1">
+                                <a href="#" class="menu_1" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 2</a>
+                                <ul class="menu_2">
+                                    <li class="menu_2">
+                                        <a href="#" class="menu_2" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 2 a</a>
+                                    </li>
+                                    <li class="menu_2">
+                                        <a href="#" class="menu_2" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 2 b</a>
+                                    </li>
+                                    <li class="menu_2">
+                                        <a href="#" class="menu_2" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 2 c</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu_1">
+                                <a href="#" class="menu_1" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 3</a>
+                                <ul class="menu_2">
+                                    <li class="menu_2">
+                                        <a href="#" class="menu_2" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 3 a</a>
+                                    </li>
+                                    <li class="menu_2">
+                                        <a href="#" class="menu_2" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 3 b</a>
+                                    </li>
+                                    <li class="menu_2">
+                                        <a href="#" class="menu_2" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Menu 3 c</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </menu>
+
+                <div id="article_aside_wrapper">
+                    <article>
+                        <div id="article_inner">
+                            <div id="intro">
+                                <h1>How To Use</h1>
+
+                                <p>Ever wondered what the difference between Adaptive, Responsive, Static and Liquid sites is? Had someone try and explain it only to be left more confused?</p>
+
+                                <p>Pick a flavor from the drop down on the top of the page then drag your window narrower and wider, taller and shorter. It will make much more sense when you see for yourself how the approach works.</p>
+                            </div>
+
+                            <div id="overview">
+                                <img src="lib/layout_1.gif" alt="Single Column Layout" id="layout_1">
+                                <img src="lib/layout_2.gif" alt="Two Column Layout" id="layout_2">
+                                <img src="lib/layout_3.gif" alt="Three Column Layout" id="layout_3">
+
+                                <h1 class="overview_adaptive">Adaptive</h1>
+
+                                <p class="overview_adaptive">Adaptive is characterized by having defined layouts for different resolutions. Within each layout, resizing the window does not change the layout.</p>
+
+                                <p class="overview_adaptive">You can think of Adaptive as a series of <a href="#" class="mode" rel="static" title="Change to Static">Static</a> layouts.</p>
+
+                                <h1 class="overview_liquid">Liquid</h1>
+
+                                <p class="overview_liquid">Liquid (also called "Fluid") is characterized by scaling the width of parts of the design relative to the window. It tends to fail when the window is much smaller or much larger than it was originally designed for.</p>
+
+                                <h1 class="overview_responsive">Responsive</h1>
+
+                                <p class="overview_responsive">Responsive is characterized by having defined layouts for different resolutions. Within each layout, the design is liquid and resizes the width of elements relative to the changing window size.</p>
+
+                                <p class="overview_responsive">You can think of Responsive as a series of <a href="#" class="mode" rel="liquid" title="Change to Liquid">Liquid</a> layouts.</p>
+
+                                <h1 class="overview_static">Static</h1>
+
+                                <p class="overview_static">Static layouts are the traditional web: one design that sits in the center of the page and requires horizontal scrolling if the window is too small for it. M dot sites are the traditional answer to this, providing a wholly separate site for a lower resolution - and all the work of creating a separate site.</p>
+                            </div>
+
+                            <!-- Start: Single Block -->
+                            <div class="block">
+                                <div class="block_inner">
+                                    <img src="lib/photo.jpg">
+                                    <div class="block_content">
+                                        <h3>Title 01</h3>
+                                        <p class="meta">Month dd, yyyy</p>
+                                        <p class="summary">Summary01_01 summary01_02 summary01_03 summary01_04 summary01_05 summary01_06</p>
+                                        <p class="main">Content01_01 content01_02 content01_03 content01_04 content01_05 content01_06 content01_07 content01_08 content01_09 content01_10 content01_11 content01_12 content01_13 content01_14 content01_15 content01_16</p>
+                                        <a href="#" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End: Single Block -->
+
+                            <!-- Start: Single Block -->
+                            <div class="block">
+                                <div class="block_inner">
+                                    <img src="lib/photo.jpg">
+                                    <div class="block_content">
+                                        <h3>Title 02</h3>
+                                        <p class="meta">Month dd, yyyy</p>
+                                        <p class="summary">Summary02_01 summary02_02 summary02_03 summary02_04 summary02_05 summary02_06
+                                        </p>
+                                        <p class="main">Content02_01 content02_02 content02_03 content02_04 content02_05 content02_06 content02_07 content02_08 content02_09 content02_10 content02_11 content02_12 content02_13 content02_14 content02_15 content02_16</p>
+                                        <a href="#" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End: Single Block -->
+
+                            <!-- Start: Single Block -->
+                            <div class="block">
+                                <div class="block_inner">
+                                    <img src="lib/photo.jpg">
+                                    <div class="block_content">
+                                        <h3>Title 03</h3>
+                                        <p class="meta">Month dd, yyyy</p>
+                                        <p class="summary">Summary03_01 summary03_02 summary03_03 summary03_04 summary03_05 summary03_06</p>
+                                        <p class="main">Content03_01 content03_02 content03_03 content03_04 content03_05 content03_06 content03_07 content03_08 content03_09 content03_10 content03_11 content03_12 content03_13 content03_14 content03_15 content03_16</p>
+                                        <a href="#" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End: Single Block -->
+
+                            <!-- Start: Single Block -->
+                            <div class="block">
+                                <div class="block_inner">
+                                    <img src="lib/photo.jpg">
+                                    <div class="block_content">
+                                        <h3>Title 04</h3>
+                                        <p class="meta">Month dd, yyyy</p>
+                                        <p class="summary">Summary04_01 summary04_02 summary04_03 summary04_04 summary04_05 summary04_06</p>
+                                        <p class="main">Content04_01 content04_02 content04_03 content04_04 content04_05 content04_06 content04_07 content04_08 content04_09 content04_10 content04_11 content04_12 content04_13 content04_14 content04_15 content04_16</p>
+                                        <a href="#" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Link04</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End: Single Block -->
+
+                            <!-- Start: Single Block -->
+                            <div class="block">
+                                <div class="block_inner">
+                                    <img src="lib/photo.jpg">
+                                    <div class="block_content">
+                                        <h3>Title 05</h3>
+                                        <p class="meta">Month dd, yyyy</p>
+                                        <p class="summary">Summary05_01 summary05_02 summary05_03 summary05_04 summary05_05 summary05_06</p>
+                                        <p class="main">Content05_01 content05_02 content05_03 content05_04 content05_05 content05_06 content05_07 content05_08 content05_09 content05_10 content05_11 content05_12 content05_13 content05_14 content05_15 content05_16</p>
+                                        <a href="#" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Link05</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End: Single Block -->
+                        </div>
+                    </article>
+
+                    <aside>
+                        <div id="aside_inner">
+                            <!-- Start: Single Block -->
+                            <div class="block">
+                                <div class="block_inner">
+                                    <img src="lib/photo.jpg">
+                                    <div class="block_content">
+                                        <h3>Title 06</h3>
+                                        <p class="meta">Month dd, yyyy</p>
+                                        <p class="summary">Summary06_01 summary06_02 summary06_03 summary06_04 summary06_05 summary06_06</p>
+                                        <p class="main">Content06_01 content06_02 content06_03 content06_04 content06_05 content06_06 content06_07 content06_08 content06_09 content06_10 content06_11 content06_12 content06_13 content06_14 content06_15 content06_16</p>
+                                        <a href="#" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Link06</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End: Single Block -->
+
+                            <!-- Start: Single Block -->
+                            <div class="block">
+                                <div class="block_inner">
+                                    <img src="lib/photo.jpg">
+                                    <div class="block_content">
+                                        <h3>Title 07</h3>
+                                        <p class="meta">Month dd, yyyy</p>
+                                        <p class="summary">Summary07_01 summary07_02 summary07_03 summary07_04 summary07_05 summary07_06</p>
+                                        <p class="main">Content07_01 content07_02 content07_03 content07_04 content07_05 content07_06 content07_07 content07_08 content07_09 content07_10 content07_11 content07_12 content07_13 content07_14 content07_15 content07_16</p>
+                                        <a href="#" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Link07</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End: Single Block -->
+
+                            <!-- Start: Single Block -->
+                            <div class="block">
+                                <div class="block_inner">
+                                    <img src="lib/photo.jpg">
+                                    <div class="block_content">
+                                        <h3>Title 08</h3>
+                                        <p class="meta">Month dd, yyyy</p>
+                                        <p class="summary">Summary08_01 summary08_02 summary08_03 summary08_04 summary08_05 summary08_06</p>
+                                        <p class="main">Content08_01 content08_02 content08_03 content08_04 content08_05 content08_06 content08_07 content08_08 content08_09 content08_10 content08_11 content08_12 content08_13 content08_14 content08_15 content08_16</p>
+                                        <a href="#" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Link08</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End: Single Block -->
+
+                            <!-- Start: Single Block -->
+                            <div class="block">
+                                <div class="block_inner">
+                                    <img src="lib/photo.jpg">
+                                    <div class="block_content">
+                                        <h3>Title 09</h3>
+                                        <p class="meta">Month dd, yyyy</p>
+                                        <p class="summary">Summary09_01 summary09_02 summary09_03 summary09_04 summary09_05 summary09_06</p>
+                                        <p class="main">Content09_01 content09_02 content09_03 content09_04 content09_05 content09_06 content09_07 content09_08 content09_09 content09_10 content09_11 content09_12 content09_13 content09_14 content09_15 content09_16</p>
+                                        <a href="#" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Link09</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End: Single Block -->
+
+                            <!-- Start: Single Block -->
+                            <div class="block">
+                                <div class="block_inner">
+                                    <img src="lib/photo.jpg">
+                                    <div class="block_content">
+                                        <h3>Title 10</h3>
+                                        <p class="meta">Month dd, yyyy</p>
+                                        <p class="summary">Summary10_01 summary10_02 summary10_03 summary10_04 summary10_05 summary10_06</p>
+                                        <p class="main">Content10_01 content10_02 content10_03 content10_04 content10_05 content10_06 content10_07 content10_08 content10_09 content10_10 content10_11 content10_12 content10_13 content10_14 content10_15 content10_16</p>
+                                        <a href="#" title="Dummy placeholder link. This doesn&#39;t go anywhere.">Link10</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End: Single Block -->
+                        </div>
+                    </aside>
+                </div>
+            </div>
+
+            <footer>
+                <div id="footer_inner">
+                    <p>Built by <a href="http://www.digitaria.com/blogs/authors/nicholas-davison/" title="Blog">Nicholas Davison</a> for <a href="http://www.digitaria.com/" title="Digitaria&#39;s Company Website">Digitaria</a></p>
+                    <p>© Copyright <a href="http://www.digitaria.com/" title="Digitaria&#39;s Company Website">Digitaria</a></p>
+                </div>
+            </footer>
+        </div>
+
+        <script type="text/javascript" src="lib/main.js"></script>
+    </body>
+</html>
